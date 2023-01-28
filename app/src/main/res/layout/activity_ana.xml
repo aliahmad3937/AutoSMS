@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:id="@+id/tbMesajx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tbMesaj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_backgroundd"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:gravity="top"
+                android:hint="@string/hint_mesajiniz"
+                android:inputType="textAutoComplete|textAutoCorrect|textMultiLine|textNoSuggestions|textShortMessage"
+                android:lines="5"
+                android:maxLines="5"
+                android:padding="5.0dip"
+                android:textSize="15.0sp" />
+
+            <ImageButton
+                android:id="@+id/btnMesajGonder"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/btn_mesajgonder"
+                android:src="@drawable/ic_baseline_send_24"
+                android:text="@string/btn_mesajgonder" />
+        </RelativeLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_days_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbMesajx"
+            android:layout_margin="@dimen/_8sdp"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_no_of_messages_here"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/choo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_days_layout"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/choose_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+
+            />
+
+        <TimePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:timePickerMode="spinner" />
+
+        <TextView
+            android:id="@+id/tvListeBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/cbTumunuSec"
+            android:layout_alignStart="@id/tbMesajx"
+            android:layout_alignBottom="@id/cbTumunuSec"
+            android:text="@string/kisiler"
+            android:textColor="@color/siyah"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbTumunuSec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datePicker1"
+            android:layout_alignEnd="@id/tbMesajx"
+            android:layout_alignRight="@id/tbMesajx"
+            android:text="@string/hint_tumunusec"
+            android:textColor="@color/siyah"
+            android:textSize="13.0sp" />
+
+        <ListView
+            android:id="@+id/lvKisiler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cbTumunuSec"
+            android:layout_alignStart="@id/tbMesajx"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_backgroundd"
+            android:drawSelectorOnTop="true"
+            android:nestedScrollingEnabled="false"
+            android:scrollbars="none"
+
+
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/selectionFragment">
+
+    <fragment
+        android:id="@+id/selectionFragment"
+        android:name="com.auto.sms.fragments.SelectionFragment"
+        android:label="fragment_selection"
+        tools:layout="@layout/fragment_selection" >
+        <action
+            android:id="@+id/action_selectionFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/selectionFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_selectionFragment_to_adminDashboardFragment"
+            app:destination="@id/adminDashboardFragment"
+            app:popUpTo="@id/selectionFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_selectionFragment_to_userDashboardFragment"
+            app:destination="@id/userDashboardFragment"
+            app:popUpTo="@id/selectionFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.auto.sms.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_adminDashboardFragment"
+            app:destination="@id/adminDashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_loginFragment_to_userDashboardFragment"
+            app:destination="@id/userDashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/adminDashboardFragment"
+        android:name="com.auto.sms.fragments.AdminDashboardFragment"
+        android:label="fragment_admin_dashboard"
+        tools:layout="@layout/fragment_admin_dashboard" >
+
+        <action
+            android:id="@+id/action_adminDashboardFragment_to_addUserFragment"
+            app:destination="@id/addUserFragment"
+
+          />
+        <action
+            android:id="@+id/action_adminDashboardFragment_to_selectionFragment"
+            app:destination="@id/selectionFragment"
+            app:popUpTo="@id/adminDashboardFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/userDashboardFragment"
+        android:name="com.auto.sms.fragments.UserDashboardFragment"
+        android:label="fragment_user_dashboard"
+        tools:layout="@layout/fragment_user_dashboard" >
+        <action
+            android:id="@+id/action_userDashboardFragment_to_selectionFragment"
+            app:destination="@id/selectionFragment"
+            app:popUpTo="@id/userDashboardFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_userDashboardFragment_to_callLogFragment"
+            app:destination="@id/callLogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.auto.sms.fragments.AddUserFragment"
+        android:label="fragment_add_user"
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/callLogFragment"
+        android:name="com.auto.sms.fragments.CallLogFragment"
+        android:label="fragment_call_log"
+        tools:layout="@layout/fragment_call_log" />
+</navigation>

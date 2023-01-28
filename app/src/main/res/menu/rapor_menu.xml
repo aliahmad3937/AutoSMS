@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/yenile" android:id="@+id/rmYenile" android:orderInCategory="100" android:title="@string/yenile" />
+    <item android:icon="@drawable/geri" android:id="@+id/rmGeri" android:orderInCategory="101" android:title="@string/geri" />
+</menu>

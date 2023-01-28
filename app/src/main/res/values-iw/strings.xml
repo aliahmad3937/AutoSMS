@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Auto Sms</string>
+
+    <string name="please_wait">המתן בבקשה....</string>
+    <string name="continue_as">המשך כמו</string>
+    <string name="admin">מנהל</string>
+    <string name="user">מִשׁתַמֵשׁ</string>
+    <string name="enter_username">הכנס שם משתמש</string>
+    <string name="enter_password">הזן את הסיסמה</string>
+    <string name="login">התחברות</string>
+    <string name="add_new_user">הוסף משתמש חדש</string>
+    <string name="enter_name">הכנס שם</string>
+    <string name="add">הוסף משתמש</string>
+    <string name="all_users">כל המשתמשים</string>
+    <string name="required">נדרש</string>
+    <string name="no_data_found">לא נמצאו נתונים</string>
+    <string name="login_successfully">התחבר בהצלחה</string>
+    <string name="you_are_already">אתה כבר מתחבר למכשיר אחר</string>
+    <string name="welocme">ברוך הבא</string>
+    <string name="delete_successfully">מחק בהצלחה</string>
+    <string name="user_added_successfully">המשתמש הוסיף בהצלחה</string>
+    <string name="no_user_found">לא נמצא משתמש</string>
+    <string name="dashboard">לוּחַ מַחווָנִים</string>
+    <string name="set_message_for_missed_calls">הגדר הודעה לשיחות שהוחמצו</string>
+    <string name="set_message_for_received_calls">הגדר הודעה לשיחות שהתקבלו</string>
+    <string name="message">הוֹדָעָה</string>
+    <string name="enter_message_here">הזן הודעה כאן</string>
+    <string name="save">להציל</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="english">אנגלית</string>
+    <string name="hibro">עִברִית</string>
+    <string name="sent_sms">הודעה נשלחה</string>
+    <string name="unsaved_contacts">קשרים לא נשמרים</string>
+    <string name="send_message_to_contacts">שלח הודעה לאנשי הקשר שלי</string>
+    <string name="send_message_to_contacts_miss">שלח הודעה לאנשי הקשר שלי שאינם שומרים</string>
+
+
+    /// sms blaster
+    <string name="kisiler">אנשים</string>
+    <string name="kisileri_goster">להראות אנשים</string>
+    <string name="hint_tumunusec">בחר הכל</string>
+    <string name="lutfen_bekleyin">המתן בבקשה</string>
+    <string name="raporlar_yukleniyor">דוח טעינה</string>
+    <string name="title_activity_rapor">דוחות משלוח</string>
+    <string name="gruplar">קבוצות</string>
+    <string name="iletildi">מוּצלָח</string>
+    <string name="kayitol">הירשם</string>
+
+    <string name="ucretsiz_surum_uyarisi">"""בגרסה החינמית אתה לא יכול להכין ספינות נוספות!
+אנא צור קשר עם גרסת ה- Pro לקבלת שליחה בלתי מוגבלת. """</string>
+    <string name="kisi_yada_grup_secilmemis">אדם או קבוצה שנבחרו!</string>
+    <string name="mesaj_gonderilsin_mi">אתה רוצה שאשלח אותך עכשיו?</string>
+    <string name="karakter">דמות</string>
+    <string name="kisi">אדם</string>
+    <string name="grup">קְבוּצָה</string>
+    <string name="mesaj_yazmadiniz">לא הותיר הודעה!</string>
+    <string name="hint_mesajiniz">ההודעה שלך</string>
+    <string name="mesajlar_gonderiliyor">ההודעות נשלחות</string>
+    <string name="raporlar">דיווחים</string>
+    <string name="rehber_hizli_acilis">הגדרה למדריך הפעלה מהיר</string>
+    <string name="rehber_yukleniyor">מדריך טעינה</string>
+    <string name="seciniz">בחר</string>
+    <string name="tektek_gonder">שלח סינגל</string>
+    <string name="tumunu_gonder">שלח הכל בבת אחת</string>
+
+    <string name="yenile">לְרַעֲנֵן</string>
+    <string name="yuksek_miktarda_mesaj_gonderimi">אנא הירשם לקבלת שירותים איכותיים</string>
+
+    <string name="GSM_No_yazmadiniz">GSM לא לא כתבת! לפחות 10 משקי בית התקבלו.</string>
+    <string name="basarisiz">לא מצליח</string>
+    <string name="bekleniyor">מחכה</string>
+    <string name="btn_iptal">לְבַטֵל</string>
+    <string name="btn_mesajgonder">לִשְׁלוֹחַ</string>
+    <string name="btn_tamam">בסדר</string>
+    <string name="geri">חזור</string>
+    <string name="gonderim_yontemi">שיטת שליחה</string>
+    <string name="gruplari_goster">הצג קבוצות</string>
+    <string name="guncelle">עדכון</string>
+    <string name="hakkinda">על אודות</string>
+    <string name="hakkinda_mesaji">"""SMS ללא הגבלה
+אנדרואיד v1.85
+
+איש קשר:
+
+
+(ג) 2014 """</string>
+    <string name="henuz_mesaj_gonderimi_yapmadiniz">שליחת הודעות שעדיין לא!</string>
+    <string name="hint_gsmno">מספר GSM</string>
+
+    <string name="konumum">המיקום שלי</string>
+    <string name="mesaj_gonderildi">ההודעה נשלחה!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">שלום שבר ריק</string>
+    <string name="plse_select">אנא בחר מספר כלשהו לפני שליחת SMS</string>
+    <string name="send_message_to_nmbr">שלח הודעה לאותו מספר כל יום</string>
+
+
+
+    <string name="enter_no_of_messages_here">הזן כאן מספר הודעות</string>
+
+    <string name="choose_time">בחר זמן</string>
+    <string name="contact">איש קשר</string>
+    <string name="not_contact">לא צור קשר</string>
+    <string name="both">שניהם</string>
+    <string name="miss_call_msg">מיס שיחה הודעה</string>
+    <string name="receive_call_msg">קבלת הודעת שיחה</string>
+    <string name="after_how">לאחר כמה שיחות תקבל הודעה?</string>
+    <string name="in_contacts">באנשי קשר</string>
+    <string name="out_contacts">יציאה לאנשי קשר</string>
+    <string name="exclude">לא כולל</string>
+
+    <string name="update_user">עדכן משתמש</string>
+    <string name="name">שֵׁם</string>
+    <string name="password">סיסמה</string>
+    <string name="update">עדכון</string>
+    <string name="update_successfully">עדכון בהצלחה!</string>
+    <string name="messages">הודעות</string>
+
+
+    <string name="message_1">הודעה 1</string>
+    <string name="message_2">הודעה 2</string>
+    <string name="message_3">הודעה 3</string>
+    <string name="message_4">הודעה 4</string>
+    <string name="message_5">הודעה 5</string>
+
+    <string name="save_messages">שמור הודעות</string>
+
+
+    <string name="admin_not_deleted">לא ניתן למחוק חשבון אדמין!</string>
+
+    <string name="full_systems_inc">מערכות מלאות בע"מ</string>
+</resources>

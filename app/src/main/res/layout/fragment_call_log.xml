@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:fillViewport="true"-->
+<!--       >-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/unsaved_contacts"
+            android:textSize="@dimen/_24ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+
+        <ImageView
+            android:id="@+id/back_arrow_imageview"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:layout_constraintTop_toTopOf="@id/tv_1"
+            app:layout_constraintBottom_toBottomOf="@id/tv_1"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginStart="@dimen/_10sdp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/tbMesajx"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <EditText
+                android:id="@+id/message_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_toStartOf="@+id/btnMesag_send"
+                android:background="@drawable/ic_backgroundd"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:gravity="top"
+                android:hint="@string/hint_mesajiniz"
+                android:inputType="textAutoComplete|textAutoCorrect|textMultiLine|textNoSuggestions|textShortMessage"
+                android:lines="5"
+                android:maxLines="5"
+                android:padding="5.0dip"
+                android:textSize="15.0sp" />
+
+            <ImageButton
+                android:id="@+id/btnMesag_send"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/btn_mesajgonder"
+                android:src="@drawable/ic_baseline_send_24"
+                android:text="@string/btn_mesajgonder" />
+        </RelativeLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_days_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbMesajx"
+            android:layout_margin="@dimen/_8sdp"
+
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tbMesajx">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_no_of_messages_here"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/choo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_days_layout"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/choose_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/input_days_layout" />
+
+        <TimePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:timePickerMode="spinner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/choo" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/call_log_recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    </ScrollView>-->
+</layout>

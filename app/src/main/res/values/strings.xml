@@ -1,0 +1,125 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Auto Sms</string>
+
+    <string name="please_wait">Please Wait...</string>
+    <string name="continue_as">Continue as</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="add">Add User</string>
+    <string name="all_users">All users</string>
+    <string name="required">Required</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="you_are_already">You are already login to other device</string>
+    <string name="welocme">Welcome</string>
+    <string name="delete_successfully">Delete Successfully</string>
+    <string name="user_added_successfully">User added successfully</string>
+    <string name="no_user_found">No User Found</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="set_message_for_missed_calls">Set Message for Missed calls</string>
+    <string name="set_message_for_received_calls">Set Message for Received calls</string>
+    <string name="message">Message</string>
+    <string name="enter_message_here">Enter Message here</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="english">English</string>
+    <string name="hibro">Hibro</string>
+    <string name="sent_sms">Message Sent</string>
+    <string name="auto_sms_not_save">Auto Sms not Save!</string>
+
+    <string name="unsaved_contacts">Unsaved Contacts</string>
+    <string name="send_message_to_contacts">Send message to my contacts</string>
+    <string name="send_message_to_contacts_miss">Send message to my contacts which are not save</string>
+
+
+    /// sms blaster
+    <string name="kisiler">Persons</string>
+    <string name="kisileri_goster">Show persons</string>
+    <string name="hint_tumunusec">Select All</string>
+    <string name="lutfen_bekleyin">Please wait</string>
+    <string name="raporlar_yukleniyor">Report loading</string>
+    <string name="title_activity_rapor">Delivery Reports</string>
+    <string name="gruplar">Groups</string>
+    <string name="iletildi">Successful</string>
+    <string name="kayitol">Sign Up</string>
+
+    <string name="ucretsiz_surum_uyarisi">"In the free version you can not make more ships!
+Please contact the Pro version for unlimited sending."</string>
+    <string name="kisi_yada_grup_secilmemis">Person or group selected!</string>
+    <string name="mesaj_gonderilsin_mi">Do you want me to send you done now?</string>
+    <string name="karakter">character</string>
+    <string name="kisi">person</string>
+    <string name="grup">group</string>
+    <string name="mesaj_yazmadiniz">Did not leave message!</string>
+    <string name="hint_mesajiniz">Your message</string>
+    <string name="mesajlar_gonderiliyor">Messages are sent</string>
+    <string name="raporlar">Reports</string>
+    <string name="rehber_hizli_acilis">Setting for quick startup guide</string>
+    <string name="rehber_yukleniyor">Loading guide</string>
+    <string name="seciniz">Select</string>
+    <string name="tektek_gonder">Send a single</string>
+    <string name="tumunu_gonder">Send all at once</string>
+
+    <string name="yenile">Refresh</string>
+    <string name="yuksek_miktarda_mesaj_gonderimi">Please register to receive quality services</string>
+
+    <string name="GSM_No_yazmadiniz">GSM No you did not write! At least 10 households accepted.</string>
+    <string name="basarisiz">Unsuccessful</string>
+    <string name="bekleniyor">Awaiting</string>
+    <string name="btn_iptal">Cancel</string>
+    <string name="btn_mesajgonder">Send</string>
+    <string name="btn_tamam">OK</string>
+    <string name="geri">Back</string>
+    <string name="gonderim_yontemi">Sending Method</string>
+    <string name="gruplari_goster">Show groups</string>
+    <string name="guncelle">Update</string>
+    <string name="hakkinda">About</string>
+    <string name="hakkinda_mesaji">"UNLIMITED SMS
+Android v1.85
+
+Contact:
+info@sinirsizsms.com
+
+( c ) 2014"</string>
+    <string name="henuz_mesaj_gonderimi_yapmadiniz">Sending messages that have not yet!</string>
+    <string name="hint_gsmno">GSM Number</string>
+
+    <string name="konumum">My Location</string>
+    <string name="mesaj_gonderildi">the message sent !</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plse_select">Please select any number before sending sms</string>
+    <string name="send_message_to_nmbr">Send message to same number every days</string>
+    <string name="enter_no_of_messages_here">Enter no of Messages here</string>
+    <string name="choose_time">Choose time</string>
+    <string name="contact">Contact</string>
+    <string name="not_contact">not Contact</string>
+    <string name="both">Both</string>
+    <string name="miss_call_msg">Miss call Message</string>
+    <string name="receive_call_msg">Receive call Message</string>
+    <string name="in_contacts">In Contacts</string>
+    <string name="out_contacts">Out Contacts</string>
+    <string name="after_how">After how many calls message will Receive?</string>
+    <string name="exclude">Exclude</string>
+    <string name="update_user">Update User</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="update">Update</string>
+    <string name="update_successfully">Update Successfully!</string>
+    <string name="messages">Messages</string>
+    <string name="message_1">Message 1</string>
+    <string name="message_2">Message 2</string>
+    <string name="message_3">Message 3</string>
+    <string name="message_4">Message 4</string>
+    <string name="message_5">Message 5</string>
+    <string name="save_messages">Save Messages</string>
+
+    <string name="admin_not_deleted">Admin Account cant be deleted!</string>
+    <string name="full_systems_inc">Full Systems Inc</string>
+
+</resources>

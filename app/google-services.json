@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453917454098",
+    "project_id": "autosms-c9e4f",
+    "storage_bucket": "autosms-c9e4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453917454098:android:81df420cc4fd31edb48dcb",
+        "android_client_info": {
+          "package_name": "com.auto.sms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453917454098-ps2tk7v4nft7d1ilh8uldvdtc7s5uv8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRA4rDeAM4QSDW3_v5vpZoYdH9xe3drxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453917454098-ps2tk7v4nft7d1ilh8uldvdtc7s5uv8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
